@@ -24,7 +24,7 @@ create table usr
      user_id int8    not null,
      email varchar(255),
      password varchar(255),
-     user_name varchar(255),
+     username varchar(255),
      last_visit timestamp,
      primary key (user_id)
 );
